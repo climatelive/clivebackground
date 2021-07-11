@@ -34,7 +34,7 @@ let inc = 0.025;
 let zOff = 0;
 
 const blurFilter = new KawaseBlurFilter(20, 10, true);
-const noise = new PIXI.filters.NoiseFilter(0.2);
+const noise = new PIXI.filters.NoiseFilter(0.08);
 
 app.stage.filters = [blurFilter, noise];
 
