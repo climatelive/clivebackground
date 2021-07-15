@@ -1,6 +1,8 @@
-import * as PIXI from "https://cdn.skypack.dev/pixi.js";
-import SimplexNoise from "https://cdn.skypack.dev/simplex-noise";
-import { KawaseBlurFilter } from "https://cdn.skypack.dev/@pixi/filter-kawase-blur";
+import * as PIXI from "pixi.js";
+import SimplexNoise from "simplex-noise";
+import { KawaseBlurFilter } from "@pixi/filter-kawase-blur";
+
+import './style.css';
 
 const width = window.innerWidth;
 const height = window.innerHeight;
